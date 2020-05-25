@@ -1,0 +1,77 @@
+:root
+{
+	--primary:#333;
+	--accent:#555;
+	--text:#fff;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary);
+  font-size:2em;
+}
+
+li 
+{
+  float: Right;
+}
+.sinistra
+{
+	float: Left;
+}
+
+.Punteggio
+{
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  background-color: royalblue
+}
+
+
+.bottone
+{
+	background-color:white;
+	width:100px;
+	height:100px;
+	margin:5px 10px;
+	
+}
+
+.vincente
+{
+  background: url('../img/target.png');
+}
+
+.perdente
+{
+  background-color: red !important;
+}
+
+.campo
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#191970;
+	min-width: 100%;
+  height: 90vh;
+}
+
+li a 
+{
+  display: block;
+  color: var(--text);
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color: var(--accent);
+}
